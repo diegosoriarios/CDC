@@ -1,7 +1,21 @@
 # CDC
 Uma linguagem cultural com os maiores nomes da programação alternativa!
 
-#
+# Para testar
+```
+  git clone https://github.com/diegosoriarios/CDC.git && cd CDC
+  npm install
+  npm start
+```
+### Abra o Postman
+Faça um post request para 
+http://localhost:3000/cdc
+Exemplo
+```
+{
+	"text": "UM PROGRAMA CULTURAL \nRODA O TAKE AI SIMONE(\"Ola\"); ACABO O PROGRAMA"
+}
+```
 
 # Documentação
 |FRASES|C|
