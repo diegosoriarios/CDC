@@ -12,7 +12,6 @@ Uma linguagem cultural com os maiores nomes da programação alternativa!
 |VOCE TA ERRADO| } else if() {|
 |ACHO ERRADO OTARIO|} else {|
 |VAMOS CHAMAR UM NOVO QUADRO|declaração função {|
-||chamada funcao|
 |RODA O TAKE AI SIMONE|printf|
 |VO TE QUE FALA ISSO AQUI|scanf|
 |AQUI TEM INFORMACAO|for() {|
