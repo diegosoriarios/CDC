@@ -23,7 +23,7 @@ Exemplo
 |UM PROGRAMA CULTURAL|int main(void){|
 |ACABO O PROGRAMA|}|
 |ACHO QUE NAO IA TER|if() {|
-|VOCE TA ERRADO| } else if() {|
+|NADA A VER| } else if() {|
 |ACHO ERRADO OTARIO|} else {|
 |VAMOS CHAMAR UM NOVO QUADRO|declaração função {|
 |RODA O TAKE AI SIMONE|printf|
@@ -44,3 +44,5 @@ Exemplo
 |KOMBI BRANCA|float|
 |AI E PROBLEMA MENTAL TEU|unsigned|
 |MARVEL OU DC|bool|
+|CE TA ERRADO|false|
+|SO MAGIA TOP|true|

@@ -19,7 +19,7 @@ module.exports = (convert) => {
     //ELSE
     code = code.replace(/(ACHO ERRADO OTARIO)(?=(?:[^"]|"[^"]*")*$)/g, '} else {')
     //ELSE IF
-    code = code.replace(/(VOCE TA ERRADO[\?]?)(?=(?:[^"]|"[^"]*")*$)(.*)/g, '} else if $2 {')
+    code = code.replace(/(NADA A VER[\?]?)(?=(?:[^"]|"[^"]*")*$)(.*)/g, '} else if $2 {')
     //WHILE
     code = code.replace(/(VOU TER QUE CONCORDAR COM O PALESTRINHA)(?=(?:[^"]|"[^"]*")*$)(.*)/g, 'while $2 {')
     //FOR
@@ -42,6 +42,8 @@ module.exports = (convert) => {
     code = code.replace(/(KOMBI BRANCA)(?=(?:[^"]|"[^"]*")*$)/g, 'float')
     code = code.replace(/(AI E PROBLEMA MENTAL TEU)(?=(?:[^"]|"[^"]*")*$)/g, 'unsigned')
     code = code.replace(/(MARVEL OU DC)(?=(?:[^"]|"[^"]*")*$)/g, 'bool')
+    code = code.replace(/(CE TA ERRADO)(?=(?:[^"]|"[^"]*")*$)/g, 'false')
+    code = code.replace(/(SO MAGIA TOP)(?=(?:[^"]|"[^"]*")*$)/g, 'true')
 
     //ADICIONA O STDIO
     code = "#include <stdio.h>\n#include <math.h>\n\n" + code
