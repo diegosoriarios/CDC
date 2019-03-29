@@ -41,6 +41,7 @@ module.exports = (convert) => {
     code = code.replace(/(SPRINTER AZUL E VERMELHA)(?=(?:[^"]|"[^"]*")*$)/g, 'double')
     code = code.replace(/(KOMBI BRANCA)(?=(?:[^"]|"[^"]*")*$)/g, 'float')
     code = code.replace(/(AI E PROBLEMA MENTAL TEU)(?=(?:[^"]|"[^"]*")*$)/g, 'unsigned')
+    code = code.replace(/(MARVEL OU DC)(?=(?:[^"]|"[^"]*")*$)/g, 'bool')
 
     //ADICIONA O STDIO
     code = "#include <stdio.h>\n#include <math.h>\n\n" + code

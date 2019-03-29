@@ -43,3 +43,4 @@ Exemplo
 |SPRINTER AZUL E VERMELHA|double|
 |KOMBI BRANCA|float|
 |AI E PROBLEMA MENTAL TEU|unsigned|
+|MARVEL OU DC|bool|
